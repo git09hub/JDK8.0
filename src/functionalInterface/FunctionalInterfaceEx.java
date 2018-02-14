@@ -19,8 +19,8 @@ public class FunctionalInterfaceEx  {
 		
 		funInterFace.statMethod("taraq");
 		
+		//lambda expressions
 		funInterFace fif = (param) -> {
-			//param.length();
 			return param+param.length();
 		};
 		
